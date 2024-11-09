@@ -42,6 +42,22 @@ section {
     background-color: white;
     border-radius: 8px;
     }
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Optional background color */
+    border: 1px solid #ddd; /* Optional border */
+}
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; /* Space between images */
+    border-radius: 8px;
+}
 
 footer {
     text-align: center;
